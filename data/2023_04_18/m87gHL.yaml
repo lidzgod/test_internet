@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-02 09:53:52
+# 创建时间：2023-05-02 09:58:00
 # 使用模版：V2RaySE 默认模版
 # 节点数量：4
 ####################################
@@ -22,7 +22,7 @@ dns:
 
 proxies:
   - {"name":"🇳🇿_NZ_新西兰\r","type":"trojan","server":"tempest-us.aikun.online","port":443,"udp":true,"password":"11e247e5-136d-45f1-844a-a7f054d36bab","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇻🇳_VN_越南","type":"vmess","server":"103.179.189.89","port":80,"cipher":"auto","uuid":"37b5e4ac-2b89-4ae6-82d0-63e884c72a8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws"}
+  - {"name":"🇻🇳_VN_越南","type":"vmess","server":"103.179.189.89","port":80,"cipher":"auto","uuid":"37b5e4ac-2b89-4ae6-82d0-63e884c72a8a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/323127100515"}}
   - {"name":"🇮🇳_IN_印度","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇭_CH_瑞士\r","type":"trojan","server":"195.15.243.26","port":443,"udp":true,"password":"4478","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
