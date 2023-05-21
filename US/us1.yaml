@@ -1,11 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
-# 客户端：Clash.Meta
-# 创建时间：2023-05-21 14:18:35
+# 客户端：Clash
+# 创建时间：2023-05-21 14:21:33
 # 使用模版：V2RaySE 默认模版
-# 节点数量：10
+# 节点数量：9
 ####################################
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
 mixed-port: 7890
 allow-lan: true
 log-level: info
@@ -26,7 +25,6 @@ proxies:
   - {"name":"80-clone_1","type":"vmess","server":"194.146.26.238","port":30208,"cipher":"auto","uuid":"03666a3e-d202-4484-99c3-fe6e4ea2161d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"80-clone_2","type":"vmess","server":"bbq.ldz.buzz","port":80,"cipher":"auto","uuid":"03666a3e-d202-4484-99c3-fe6e4ea2161d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
   - {"name":"22","type":"vmess","server":"us.ldz.buzz","port":80,"cipher":"auto","uuid":"c9c45d4c-c818-45ae-9241-b1525954f416","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"ArgoX-Vl\r","type":"vless","server":"icook.hk","port":443,"uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","tls":true,"servername":"studio-extreme-detected-poland.trycloudflare.com","network":"ws","ws-opts":{"path":"/argox-vl"}}
   - {"name":"ArgoX-Vm","type":"vmess","server":"icook.hk","port":443,"cipher":"none","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-vm","headers":{"host":"studio-extreme-detected-poland.trycloudflare.com"}}}
   - {"name":"ArgoX-Tr\r","type":"trojan","server":"icook.hk","port":443,"udp":true,"password":"ffffffff-ffff-ffff-ffff-ffffffffffff","sni":"studio-extreme-detected-poland.trycloudflare.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/argox-tr","headers":{"host":"studio-extreme-detected-poland.trycloudflare.com"}}}
   - {"name":"ww\r","type":"ss","server":"icook.hk","port":443,"password":"ffffffff-ffff-ffff-ffff-ffffffffffff","cipher":"chacha20-ietf-poly1305"}
@@ -42,7 +40,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -58,7 +55,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -74,7 +70,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -89,7 +84,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -104,7 +98,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -119,7 +112,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
@@ -151,7 +143,6 @@ proxy-groups:
       - 80-clone_1
       - 80-clone_2
       - '22'
-      - "ArgoX-Vl\r"
       - ArgoX-Vm
       - "ArgoX-Tr\r"
       - "ww\r"
